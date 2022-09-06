@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{EDB96D8E-81AC-4DEA-9AC5-DAF5A7CF9CC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{56EE0722-FD20-4504-83DB-C04B54E9A28B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EDB96D8E-81AC-4DEA-9AC5-DAF5A7CF9CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB96D8E-81AC-4DEA-9AC5-DAF5A7CF9CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB96D8E-81AC-4DEA-9AC5-DAF5A7CF9CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EE0722-FD20-4504-83DB-C04B54E9A28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EE0722-FD20-4504-83DB-C04B54E9A28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EE0722-FD20-4504-83DB-C04B54E9A28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EE0722-FD20-4504-83DB-C04B54E9A28B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

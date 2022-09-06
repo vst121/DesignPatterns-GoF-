@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TemplateMethod
+{
+
+    public abstract class Task
+    {
+        private AuditTrail auditTrail;
+        public Task()
+        {
+            this.auditTrail = new AuditTrail();
+        }
+        public Task(AuditTrail auditTrial)
+        {
+            this.auditTrail = auditTrial;
+        }
+        public void Execute()
+        {
+            auditTrail.Record();
+            DoExecute();
+        }
+
+        protected abstract void DoExecute();
+
+    }
+}
