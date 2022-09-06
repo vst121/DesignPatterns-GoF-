@@ -1,6 +1,6 @@
 ﻿namespace Iterator
 {
-    public class ArrayIterator : BaseIterator
+    public class ArrayIterator : IIterator
     {
         private int index;
         public ArrayIterator(BrowseHistoryArray browseHistory)

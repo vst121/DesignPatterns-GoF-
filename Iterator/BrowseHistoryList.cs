@@ -27,7 +27,7 @@ namespace Iterator
 
         public List<string> Urls { get; private set; }
 
-        public BaseIterator CreateIterator()
+        public IIterator CreateIterator()
         {
             return new ListIterator(this);
         }

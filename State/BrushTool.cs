@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace State
 {
-    public class BrushTool : Tool
+    public class BrushTool : ITool
     {
         public void MosueDown()
         {

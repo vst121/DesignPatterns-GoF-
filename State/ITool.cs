@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iterator
+namespace State
 {
-    public interface BaseIterator
+    public interface ITool
     {
-        bool HasNext();
-        string Current();
-        void Next();
+        void MosueDown();
+        void MosueUp();
     }
 }

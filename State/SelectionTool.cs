@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace State
 {
-    public class SelectionTool : Tool
+    public class SelectionTool : ITool
     {
         public void MosueDown()
         {

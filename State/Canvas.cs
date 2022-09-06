@@ -17,6 +17,6 @@ namespace State
         {
             CurrentTool.MosueUp();
         }
-        public Tool CurrentTool { get; set; }
+        public ITool CurrentTool { get; set; }
     }
 }

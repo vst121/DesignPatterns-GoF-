@@ -11,7 +11,7 @@ namespace Iterator
             browseHistoryList.Push("b");
             browseHistoryList.Push("c");
 
-            BaseIterator iterator = browseHistoryList.CreateIterator();
+            IIterator iterator = browseHistoryList.CreateIterator();
 
             while (iterator.HasNext())
             {
