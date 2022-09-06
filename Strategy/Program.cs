@@ -6,6 +6,10 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
+            ImageStorage imageStorage = new ImageStorage(
+                new JpgCompressor(), new BlackAndWhiteFilter());
+
+            imageStorage.Store("myfile");
 
             Console.ReadLine();
         }

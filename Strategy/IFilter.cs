@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public interface ICompressor
+    public interface IFilter
     {
-        void Compress(string fileName);
+        void ApplyFilter(string fileName);
     }
 }
