@@ -8,19 +8,10 @@ namespace Strategy
 {
     public class ImageStorage
     {
-        public ImageStorage(ICompressor compresor, IFilter filter)
+        public void Store(string fileName, ICompressor compressor, IFilter filter)
         {
-            Compressor = compresor;
-            Filter = filter;
+            compressor.Compress(fileName);
+            filter.ApplyFilter(fileName);
         }
-
-        public void Store(string fileName)
-        {
-            Compressor.Compress(fileName);
-            Filter.ApplyFilter(fileName);
-        }
-
-        public ICompressor Compressor { get; private set; }
-        public IFilter Filter { get; set; }
     }
 }
