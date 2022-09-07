@@ -23,19 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{08A08920-7B84-48E7-B951-26EC74858F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{37BAE519-3496-4176-B80C-2A9C1D4BFA93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{37BAE519-3496-4176-B80C-2A9C1D4BFA93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{B066F1BF-9ACD-4312-982F-CB8D24006EBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{B066F1BF-9ACD-4312-982F-CB8D24006EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{D6DDC6EA-7119-4BB8-A322-3C139A4B9994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{D6DDC6EA-7119-4BB8-A322-3C139A4B9994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{CD168981-A70C-463C-B763-359A0839D6B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{CD168981-A70C-463C-B763-359A0839D6B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{8EE32380-2350-4AD5-AED9-93761DEA8CAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{8EE32380-2350-4AD5-AED9-93761DEA8CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{756DC4C0-3E80-4AED-91B3-21A99A5333AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{756DC4C0-3E80-4AED-91B3-21A99A5333AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{385F8CD8-8ED5-4A89-86DD-2A36A55156F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{385F8CD8-8ED5-4A89-86DD-2A36A55156F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{AC789FA5-DD9A-4084-B2BD-171BD3A03075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{385F8CD8-8ED5-4A89-86DD-2A36A55156F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{385F8CD8-8ED5-4A89-86DD-2A36A55156F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{385F8CD8-8ED5-4A89-86DD-2A36A55156F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC789FA5-DD9A-4084-B2BD-171BD3A03075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC789FA5-DD9A-4084-B2BD-171BD3A03075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC789FA5-DD9A-4084-B2BD-171BD3A03075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC789FA5-DD9A-4084-B2BD-171BD3A03075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
