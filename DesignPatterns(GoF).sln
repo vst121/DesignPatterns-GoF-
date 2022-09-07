@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{37BAE519-3496-4176-B80C-2A9C1D4BFA93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{B066F1BF-9ACD-4312-982F-CB8D24006EBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{37BAE519-3496-4176-B80C-2A9C1D4BFA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BAE519-3496-4176-B80C-2A9C1D4BFA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BAE519-3496-4176-B80C-2A9C1D4BFA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B066F1BF-9ACD-4312-982F-CB8D24006EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B066F1BF-9ACD-4312-982F-CB8D24006EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B066F1BF-9ACD-4312-982F-CB8D24006EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B066F1BF-9ACD-4312-982F-CB8D24006EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
